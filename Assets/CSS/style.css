@@ -1,0 +1,107 @@
+/* default styling */
+html{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header Styling */
+/* Descendent Selector/ Combinators */
+#main-heading{
+
+    font-weight: 400;
+}
+h2{
+
+    font-weight: 600;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+
+    /* rem - Font size of the root element */
+    margin:0 3rem;
+}
+
+/* Navbar Styling */
+nav{
+    width: 20rem;
+
+    /* Allows to move the container wrt it's default position */
+    position: relative;
+    top:1rem;
+    right: 3rem;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+
+    list-style: none;
+    font-size: 1.5rem;
+}
+li>a{
+    text-decoration: none;
+    color:black;
+}
+/* Pseudo Selector */
+li>a:hover{
+
+    cursor: pointer;
+    color:brown;
+}
+/* Image Styling */
+.showcase-img{
+
+    width:95vw;
+    margin:1rem;
+}
+
+/* Article Styling */
+/* article{
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+    margin: 1rem;
+}
+
+div>p,div>h1{
+
+    text-align: center;
+}
+
+div>img{
+
+    display: block;
+    margin: auto;
+} */
+article{
+
+    display: flex;
+    margin: 1rem;
+}
+
+.content{
+
+    /* Everything will be aligned in the center  */
+    text-align: center;
+    font-size: 1.2rem;
+    padding:1rem;
+    margin-right: 2rem;
+}
+
+/* Footer Styling */
+footer{
+
+    background-color: black;
+    color:white;
+    height:4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
